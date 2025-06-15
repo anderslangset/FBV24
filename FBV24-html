@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to our Airbnb in Bergen</title>
+  <title>Welcome to our home in Bergen</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f9f9f9; color: #333; }
     header {
@@ -35,7 +35,7 @@
 </head>
 <body>
   <header>
-    <h1>Welcome to Frants Beyers vei Airbnb in Bergen – we hope you enjoy your stay!</h1>
+    <h1>Welcome to Frants Beyers vei 24 in Bergen – we hope you enjoy your stay!</h1>
     <p>On this page, you'll find practical information about the house and tips for things to do in Bergen.</p>
   </header>
 
