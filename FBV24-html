@@ -5,7 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to our home in Bergen</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f9f9f9; color: #333; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
     header {
       background: url('jacuzzi.jpg') center/cover no-repeat;
       color: white;
@@ -16,21 +23,76 @@
     header::before {
       content: '';
       position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0, 0, 0, 0.5);
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.7));
       z-index: 0;
     }
     header h1, header p {
       position: relative;
       z-index: 1;
+      text-shadow: 0px 2px 6px rgba(0,0,0,0.7);
     }
-    nav { background: #eee; padding: 1rem; text-align: center; }
-    nav a { margin: 0 1rem; color: #005b96; text-decoration: none; font-weight: bold; }
-    section { padding: 2rem; max-width: 800px; margin: auto; background: white; margin-top: 1rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
-    h2 { border-bottom: 2px solid #005b96; padding-bottom: 0.5rem; }
-    ul { padding-left: 1.2rem; }
-    ol { padding-left: 1.2rem; }
-    footer { text-align: center; padding: 2rem; font-size: 0.9rem; color: #666; }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: #fff;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    nav a {
+      display: inline-block;
+      background: #005b96;
+      color: white;
+      padding: 0.5rem 1rem;
+      margin: 0.3rem;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #004070;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      margin-top: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      border-bottom: 2px solid #005b96;
+      padding-bottom: 0.5rem;
+    }
+    ul, ol {
+      padding-left: 1.2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      nav a {
+        display: block;
+        margin: 0.5rem auto;
+        width: 90%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -43,6 +105,7 @@
     <a href="#innsjekk">Check-in</a>
     <a href="#soppel">Waste & Equipment</a>
     <a href="#tips">Things to do</a>
+    <a href="#house">House Info</a>
     <a href="#utsjekk">Check-out</a>
     <a href="#kontakt">Contact</a>
   </nav>
@@ -61,40 +124,53 @@
   <section id="soppel">
     <h2>Waste and Household</h2>
     <ul>
-      <li>Waste:There is two containers by the entrance to the property</li>
-      <li>Sorting: General waste goes in the green container. The blue container is for carboard and paper. If you like to help me resirculate plastic please leave it in the open room between the house and the garage.</li>
-      <li>Washing machine: The washingroom is in the room just below the stairs. It has a washing machine and a dryer. As the signs and info is in Norwegian I have made a video to show how to use it here: https://photos.app.goo.gl/7dXXUfak1Q34etos6 </li>
-      <li>Dishwasher: There are two in the main floor, and one in the downstairs appartment</li>
-      <li>Air conditioning: Use the white remote on the wall close to the AC unit. Use "mode" to select heating (shows a sun symbol), fan (fan symbol) or cooling (ice symbol), select fan speed to select if you would like to adjust the speed. Regulate the temperature with the "+" and "-" symbol </li>
-      <li>Vacuum and cleaning supplies: There are several vacuum cleaners - a battery driven one is on the side of the kitchen towards the window, a vacuum cleaner with power below the stairs or in the washing room, and there is also one in the appartment. For cleaning supplies there are some in the kitchen door closest to the entrance as well as in the washingroom downstairs</li>
+      <li><strong>Waste:</strong> There are two containers by the entrance to the property</li>
+      <li><strong>Sorting:</strong> General waste goes in the green container. The blue container is for cardboard and paper. If you like to help me recycle plastic, please leave it in the open room between the house and the garage.</li>
+      <li><strong>Washing machine:</strong> Located in the room just below the stairs. Includes washer and dryer. Instructions are in Norwegian, but here's a video guide: <a href="https://photos.app.goo.gl/7dXXUfak1Q34etos6" target="_blank">Watch Video</a></li>
+      <li><strong>Dishwasher:</strong> There are two on the main floor, and one in the downstairs apartment.</li>
+      <li><strong>Air conditioning:</strong> Use the white remote by the AC unit. Use "mode" to choose heating (sun symbol), fan, or cooling (ice symbol). Adjust fan speed and temperature with "+" and "-".</li>
+      <li><strong>Vacuum and cleaning supplies:</strong> Several vacuums available: cordless near kitchen window, plug-in vacuum below stairs or in laundry room, and one in the apartment. Cleaning supplies are in the kitchen cabinet near the entrance and in the laundry room.</li>
     </ul>
   </section>
 
   <section id="tips">
     <h2>Things to do in Bergen</h2>
     <ol>
-      <li><strong>Bryggen Hanseatic Wharf:</strong> Explore this UNESCO World Heritage Site, lined with colorful wooden buildings dating back to the Hanseatic era – this is the typical “Photo of Bergen”. Don't forget to visit the Hanseatic Museum to learn about Bergen's trading history if that interests you.</li>
-      <li><strong>Fløibanen Funicular:</strong> Take a ride on the Fløibanen funicular up Mount Fløyen for panoramic views of the city and surrounding fjords. There are hiking trails, several playgrounds for kids (make sure to check inside the forest as the “largest one” is about 700 meters in with slides etc). The restaurant at the top of Fløyen has just reopened and is worth a visit. <a href="https://www.floyen.no/en" target="_blank">Visit website</a></li>
-      <li><strong>Ulriken Cable Car (643 meters above sea level):</strong> This is my favorite trip. I usually take the stairs up (starting from the cable car entry, with some regular hills first, then fantastic stone stairs). If you enjoy exercise, I recommend Ulriken over Fløyen, though Fløyen is more well-known and accessible from the city center. On clear days, you can see all the way to the North Sea. <a href="https://ulriken643.no/en" target="_blank">Visit website</a></li>
-      <li><strong>Fish Market (Fisketorget):</strong> Experience Bergen's bustling seafood scene at the Fish Market, where you can sample fresh seafood and local delicacies like smoked salmon, and interact with vendors.</li>
-      <li><strong>Edvard Grieg Museum at Troldhaugen:</strong> Visit the former home of Norway's famous composer, located just a short walk from the house. Explore the museum, Grieg's villa, and enjoy summer concerts. <a href="https://www.kodebergen.no/en/museums/troldhaugen" target="_blank">Visit website</a></li>
-      <li><strong>St. Mary's Church (Mariakirken):</strong> Admire the architecture of Bergen's oldest surviving church, dating back to the 12th century, featuring frescoes and medieval artwork. <a href="https://en.wikipedia.org/wiki/St_Mary%27s_Church,_Bergen" target="_blank">Read more</a></li>
-      <li><strong>Nordnes Park:</strong> Take a stroll through this scenic park on a peninsula. Visit the outdoor pool (Nordnes Sjøbad – highly recommended if the weather is nice: heated pool, sea swimming, and picnic spots). <a href="https://nordnessjobad.no/en" target="_blank">Visit website</a></li>
-      <li><strong>Bergenhus Fortress:</strong> Discover Bergen's medieval history through the Rosenkrantz Tower, Haakon's Hall, and King Magnus’s fortress. Guided tours are available.</li>
-      <li><strong>KODE Art Museums:</strong> A great collection of Norwegian and international art, including works by Edvard Munch and Nikolai Astrup.</li>
-      <li><strong>Sognefjord Cruise:</strong> Take a day trip to explore Norway’s longest and deepest fjord. The cruise offers waterfalls, glaciers, and charming villages. <a href="https://www.fjordnorway.com/en/inspiration/fjord-cruise-sognefjord" target="_blank">Visit website</a></li>
+      <li><strong>Bryggen Hanseatic Wharf:</strong> Iconic UNESCO site with colorful wooden buildings. Visit the Hanseatic Museum for Bergen's trading history.</li>
+      <li><strong>Fløibanen Funicular:</strong> Ride up Mount Fløyen for panoramic views, hikes, playgrounds, and a newly refurbished restaurant. <a href="https://www.floyen.no/en" target="_blank">Visit site</a></li>
+      <li><strong>Ulriken Cable Car:</strong> Bergen’s highest viewpoint (643m). Recommended hike with stone steps. Better for exercise than Fløyen. <a href="https://ulriken643.no/en" target="_blank">Visit site</a></li>
+      <li><strong>Fish Market:</strong> Fresh seafood, local delicacies, and Bergen’s food culture.</li>
+      <li><strong>Edvard Grieg Museum at Troldhaugen:</strong> Composer's villa, museum, and summer concerts. Walking distance. <a href="https://www.kodebergen.no/en/museums/troldhaugen" target="_blank">Visit site</a></li>
+      <li><strong>St. Mary’s Church:</strong> Bergen’s oldest church with medieval art. <a href="https://en.wikipedia.org/wiki/St_Mary%27s_Church,_Bergen" target="_blank">More info</a></li>
+      <li><strong>Nordnes Park:</strong> Harbor views, outdoor pool (Sjøbad), great for summer. <a href="https://nordnessjobad.no/en" target="_blank">Visit site</a></li>
+      <li><strong>Bergenhus Fortress:</strong> Medieval castle complex. Includes Rosenkrantz Tower and Haakon’s Hall.</li>
+      <li><strong>KODE Art Museums:</strong> Featuring Edvard Munch, Nikolai Astrup and more.</li>
+      <li><strong>Sognefjord Cruise:</strong> Day trip to Norway’s deepest fjord. <a href="https://www.fjordnorway.com/en/inspiration/fjord-cruise-sognefjord" target="_blank">Visit site</a></li>
     </ol>
   </section>
+
+  <section id="house">
+    <h2>House Info</h2>
+    <ul>
+      <li><strong>Boathouse (Nøst):</strong> Guests are welcome to use the private boathouse down by the waterfront. It contains several kayaks, SUP boards, and life jackets. The boathouse is the one located closest to the water. A key is hanging on the black board in the kitchen. Below is a map showing how to get there:</li>
+      <li style="list-style: none; text-align: center; margin-top: 1rem;"><img src="way to the boathouse.jpg" alt="Way to the boathouse" style="width: 100%; max-width: 600px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);"></li>
+      <li><strong>Folding terrace doors:</strong> Please secure doors if windy – magnet isn't strong enough to hold them safely open.</li>
+      <li><strong>Bedroom window (near entrance):</strong> This window is currently locked due to a mechanical issue. A replacement is on order.</li>
+      <li><strong>Electric couch:</strong> Operate foot/neck adjustments using the four buttons on the left side of each seat (middle seat is fixed).</li>
+      <li><strong>Connected apartment:</strong> A separate apartment is connected downstairs (locked). I sometimes use it, but I travel most of the summer 😊</li>
+    </ul>
+    <p>I hope you have a lovely stay in the house and a wonderful vacation in Bergen! Feel free to message me if there’s anything I can do to improve your stay or if you need assistance.<br><br><strong>Best wishes,</strong><br>Anders</p>
+   </section>
 
   <section id="utsjekk">
     <h2>Check-out</h2>
     <ul>
-      <li>Check-out before 11:00 AM if an individual agreement is not made prior. I try to be flexible if there is no other guests comming the same day.</li>
-      <li>Take out the trash and sort into the correct containers</li>
-      <li>Start the dishwasher before you leave</li>
-      <li>If you can turn off the lights that is great</li>
-      <li>Double-check you’ve packed everything (closets, bathroom, fridge)</li>
-      <li>Lock the doors</li>
+      <li>Check-out before 11:00 AM unless otherwise agreed. I’m flexible if no new guests arrive the same day.</li>
+      <li>Take out trash and sort properly.</li>
+      <li>Start the dishwasher if used.</li>
+      <li>Turn off lights if possible.</li>
+      <li>Check all closets, bathroom, and fridge before leaving.</li>
+      <li>Lock all doors.</li>
     </ul>
   </section>
 
@@ -110,5 +186,6 @@
     <p>Thank you for staying with us. We hope you have a fantastic time in Bergen!</p>
     <p>Please consider leaving a review ❤️</p>
   </footer>
+
 </body>
 </html>
