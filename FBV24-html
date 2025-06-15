@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Velkommen til vår Airbnb i Bergen</title>
+  <title>Welcome to our Airbnb in Bergen</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f9f9f9; color: #333; }
     header {
@@ -34,77 +34,77 @@
 </head>
 <body>
   <header>
-    <h1>Velkommen til Frants Beyers vei Airbnb i Bergen - jeg håper dere får et fint opphold!</h1>
-    <p>På denne siden finner du praktisk informasjon både for å bruke huset og for aktiviteter og gjøremål i Bergen</p>
+    <h1>Welcome to Frants Beyers vei Airbnb in Bergen – we hope you enjoy your stay!</h1>
+    <p>On this page, you'll find practical information about the house and tips for things to do in Bergen.</p>
   </header>
 
   <nav>
-    <a href="#innsjekk">Innsjekk</a>
-    <a href="#soppel">Søppel & Utstyr</a>
-    <a href="#tips">Ting å gjøre</a>
-    <a href="#utsjekk">Utsjekk</a>
-    <a href="#kontakt">Kontakt</a>
+    <a href="#innsjekk">Check-in</a>
+    <a href="#soppel">Waste & Equipment</a>
+    <a href="#tips">Things to do</a>
+    <a href="#utsjekk">Check-out</a>
+    <a href="#kontakt">Contact</a>
   </nav>
 
   <section id="innsjekk">
-    <h2>Innsjekk og WiFi</h2>
+    <h2>Check-in and WiFi</h2>
     <ul>
-      <li><strong>Adresse:</strong> Sett inn adresse her</li>
-      <li><strong>Innsjekk:</strong> Etter kl. 15:00</li>
-      <li><strong>Nøkkel:</strong> Nøkkelboks ved inngangen, kode sendes dagen før ankomst</li>
-      <li><strong>WiFi:</strong> Navn: BergenStay, Passord: velkommen123</li>
-      <li><strong>Parkering:</strong> Gateparkering mulig, samt avgiftsparkering 100m unna</li>
+      <li><strong>Address:</strong> Frants Beyers veg 24, 5232 Paradis</li>
+      <li><strong>Check-in:</strong> After 4:00 PM or by individual agreement</li>
+      <li><strong>Key:</strong> Keyless entry system on the doors. Use the code you received via the platform you booked on (Airbnb/Booking).</li>
+      <li><strong>WiFi:</strong> Name: AOGI2, Password: 39153915</li>
+      <li><strong>Parking:</strong> There is a large parking area in front of the entrance. You might see one or two of my cars parked there already, but there is plenty of space for several vehicles :-)</li>
     </ul>
   </section>
 
   <section id="soppel">
-    <h2>Søppel og husholdning</h2>
+    <h2>Waste and Household</h2>
     <ul>
-      <li>Søppelrom: Til venstre for hovedinngangen</li>
-      <li>Kildesortering: Mat (grønn pose), Plast (blå pose), Papir, Restavfall</li>
-      <li>Vaskemaskin: Bruksanvisning ligger i skuffen under vask</li>
-      <li>Oppvaskmaskin: Fyll opp og kjør før utsjekk om mulig</li>
-      <li>Aircondition: Slå på med fjernkontroll, "Auto" anbefales</li>
-      <li>Støvsuger og vaskeutstyr: Finnes i boden i gangen</li>
+      <li>Waste room: To the left of the main entrance</li>
+      <li>Sorting: Food (green bag), Plastic (blue bag), Paper, General waste</li>
+      <li>Washing machine: Instructions in the drawer under the sink</li>
+      <li>Dishwasher: Please run it if full before check-out</li>
+      <li>Air conditioning: Use remote, "Auto" mode recommended</li>
+      <li>Vacuum and cleaning supplies: Found in the hallway closet</li>
     </ul>
   </section>
 
   <section id="tips">
-    <h2>Ting å gjøre i Bergen</h2>
+    <h2>Things to do in Bergen</h2>
     <ul>
-      <li><strong>Fløyen:</strong> Fantastisk utsikt – ta Fløibanen eller gå</li>
-      <li><strong>Ulriken:</strong> Høyeste fjell i Bergen – ta Ulriksbanen eller gå opp Ulriksstien</li>
-      <li><strong>Fisketorget:</strong> Lokal mat og sjømat – best på dagtid</li>
-      <li><strong>KODE-museene:</strong> Kunst og kultur i hjertet av byen</li>
-      <li><strong>Bryggen:</strong> UNESCO verdensarv, historiske trehus og koselige smau</li>
-      <li><strong>Restauranter:</strong> Prøv Lysverket, Colonialen eller Bare Vestland</li>
-      <li><strong>Kafé:</strong> Kaffemisjonen, Blom eller Det Lille Kaffekompaniet</li>
+      <li><strong>Fløyen:</strong> Amazing view – take the Fløibanen or hike up</li>
+      <li><strong>Ulriken:</strong> Highest mountain in Bergen – take the cable car or hike the trail</li>
+      <li><strong>Fish Market:</strong> Local food and seafood – best during the day</li>
+      <li><strong>KODE Museums:</strong> Art and culture in the city center</li>
+      <li><strong>Bryggen:</strong> UNESCO heritage site, historic wooden buildings and charming alleys</li>
+      <li><strong>Restaurants:</strong> Try Lysverket, Colonialen, or Bare Vestland</li>
+      <li><strong>Cafés:</strong> Kaffemisjonen, Blom, or Det Lille Kaffekompaniet</li>
     </ul>
   </section>
 
   <section id="utsjekk">
-    <h2>Utsjekk</h2>
+    <h2>Check-out</h2>
     <ul>
-      <li>Utsjekk før kl. 11:00</li>
-      <li>Ta ut søppel og kast i riktig container</li>
-      <li>Start oppvaskmaskin hvis den er halvfull eller mer</li>
-      <li>Slå av lys og aircondition</li>
-      <li>Dobbeltsjekk at du har med alt (skap, bad, kjøleskap)</li>
-      <li>Lås døren og legg nøkkelen tilbake i nøkkelboksen</li>
+      <li>Check-out before 11:00 AM</li>
+      <li>Take out the trash and sort into the correct containers</li>
+      <li>Start the dishwasher if it’s at least half full</li>
+      <li>Turn off lights and air conditioning</li>
+      <li>Double-check you’ve packed everything (closets, bathroom, fridge)</li>
+      <li>Lock the door and return the key to the key box</li>
     </ul>
   </section>
 
   <section id="kontakt">
-    <h2>Kontaktinformasjon</h2>
-    <p><strong>Vert:</strong> Anders Langset<br>
-    <strong>Telefon:</strong> +47 416 24 791<br>
-    <strong>E-post:</strong> anders@langset.no</p>
-    <p><strong>Nødhjelp:</strong> Ring 113</p>
+    <h2>Contact Information</h2>
+    <p><strong>Host:</strong> Anders Langset<br>
+    <strong>Phone:</strong> +47 416 24 791<br>
+    <strong>Email:</strong> anders@langset.no</p>
+    <p><strong>Emergency:</strong> Call 113</p>
   </section>
 
   <footer>
-    <p>Takk for at du valgte å bo hos oss. Vi håper du får et fantastisk opphold i Bergen!</p>
-    <p>Del gjerne din opplevelse i Airbnb-omtalen ❤️</p>
+    <p>Thank you for staying with us. We hope you have a fantastic time in Bergen!</p>
+    <p>Please consider leaving a review on Airbnb ❤️</p>
   </footer>
 </body>
 </html>
