@@ -29,6 +29,7 @@
     section { padding: 2rem; max-width: 800px; margin: auto; background: white; margin-top: 1rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
     h2 { border-bottom: 2px solid #005b96; padding-bottom: 0.5rem; }
     ul { padding-left: 1.2rem; }
+    ol { padding-left: 1.2rem; }
     footer { text-align: center; padding: 2rem; font-size: 0.9rem; color: #666; }
   </style>
 </head>
@@ -71,15 +72,18 @@
 
   <section id="tips">
     <h2>Things to do in Bergen</h2>
-    <ul>
-      <li><strong>Fløyen:</strong> Amazing view – take the Fløibanen or hike up</li>
-      <li><strong>Ulriken:</strong> Highest mountain in Bergen – take the cable car or hike the trail</li>
-      <li><strong>Fish Market:</strong> Local food and seafood – best during the day</li>
-      <li><strong>KODE Museums:</strong> Art and culture in the city center</li>
-      <li><strong>Bryggen:</strong> UNESCO heritage site, historic wooden buildings and charming alleys</li>
-      <li><strong>Restaurants:</strong> Try Lysverket, Colonialen, or Bare Vestland</li>
-      <li><strong>Cafés:</strong> Kaffemisjonen, Blom, or Det Lille Kaffekompaniet</li>
-    </ul>
+    <ol>
+      <li><strong>Bryggen Hanseatic Wharf:</strong> Explore this UNESCO World Heritage Site, lined with colorful wooden buildings dating back to the Hanseatic era – this is the typical “Photo of Bergen”. Don't forget to visit the Hanseatic Museum to learn about Bergen's trading history if that interests you.</li>
+      <li><strong>Fløibanen Funicular:</strong> Take a ride on the Fløibanen funicular up Mount Fløyen for panoramic views of the city and surrounding fjords. There are hiking trails, several playgrounds for kids (make sure to check inside the forest as the “largest one” is about 700 meters in with slides etc). The restaurant at the top of Fløyen has just reopened and is worth a visit. <a href="https://www.floyen.no/en" target="_blank">Visit website</a></li>
+      <li><strong>Ulriken Cable Car (643 meters above sea level):</strong> This is my favorite trip. I usually take the stairs up (starting from the cable car entry, with some regular hills first, then fantastic stone stairs). If you enjoy exercise, I recommend Ulriken over Fløyen, though Fløyen is more well-known and accessible from the city center. On clear days, you can see all the way to the North Sea. <a href="https://ulriken643.no/en" target="_blank">Visit website</a></li>
+      <li><strong>Fish Market (Fisketorget):</strong> Experience Bergen's bustling seafood scene at the Fish Market, where you can sample fresh seafood and local delicacies like smoked salmon, and interact with vendors.</li>
+      <li><strong>Edvard Grieg Museum at Troldhaugen:</strong> Visit the former home of Norway's famous composer, located just a short walk from the house. Explore the museum, Grieg's villa, and enjoy summer concerts. <a href="https://www.kodebergen.no/en/museums/troldhaugen" target="_blank">Visit website</a></li>
+      <li><strong>St. Mary's Church (Mariakirken):</strong> Admire the architecture of Bergen's oldest surviving church, dating back to the 12th century, featuring frescoes and medieval artwork. <a href="https://en.wikipedia.org/wiki/St_Mary%27s_Church,_Bergen" target="_blank">Read more</a></li>
+      <li><strong>Nordnes Park:</strong> Take a stroll through this scenic park on a peninsula. Visit the outdoor pool (Nordnes Sjøbad – highly recommended if the weather is nice: heated pool, sea swimming, and picnic spots). <a href="https://nordnessjobad.no/en" target="_blank">Visit website</a></li>
+      <li><strong>Bergenhus Fortress:</strong> Discover Bergen's medieval history through the Rosenkrantz Tower, Haakon's Hall, and King Magnus’s fortress. Guided tours are available.</li>
+      <li><strong>KODE Art Museums:</strong> A great collection of Norwegian and international art, including works by Edvard Munch and Nikolai Astrup.</li>
+      <li><strong>Sognefjord Cruise:</strong> Take a day trip to explore Norway’s longest and deepest fjord. The cruise offers waterfalls, glaciers, and charming villages. <a href="https://www.fjordnorway.com/en/inspiration/fjord-cruise-sognefjord" target="_blank">Visit website</a></li>
+    </ol>
   </section>
 
   <section id="utsjekk">
