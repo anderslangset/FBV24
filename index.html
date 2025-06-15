@@ -6,18 +6,36 @@
   <title>Velkommen til vår Airbnb i Bergen</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f9f9f9; color: #333; }
-    header { background: #005b96; color: white; padding: 1rem 2rem; text-align: center; }
+    header {
+      background: url('jacuzzi.jpg') center/cover no-repeat;
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+      position: relative;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 0;
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 1;
+    }
     nav { background: #eee; padding: 1rem; text-align: center; }
     nav a { margin: 0 1rem; color: #005b96; text-decoration: none; font-weight: bold; }
     section { padding: 2rem; max-width: 800px; margin: auto; background: white; margin-top: 1rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
     h2 { border-bottom: 2px solid #005b96; padding-bottom: 0.5rem; }
     ul { padding-left: 1.2rem; }
+    footer { text-align: center; padding: 2rem; font-size: 0.9rem; color: #666; }
   </style>
 </head>
 <body>
   <header>
-    <h1>Velkommen til vår Airbnb i Bergen</h1>
-    <p>Din komplette guide til et komfortabelt opphold</p>
+    <h1>Velkommen til Frants Beyers vei Airbnb i Bergen - jeg håper dere får et fint opphold!</h1>
+    <p>På denne siden finner du praktisk informasjon både for å bruke huset og for aktiviteter og gjøremål i Bergen</p>
   </header>
 
   <nav>
@@ -33,8 +51,9 @@
     <ul>
       <li><strong>Adresse:</strong> Sett inn adresse her</li>
       <li><strong>Innsjekk:</strong> Etter kl. 15:00</li>
-      <li><strong>Nøkkel:</strong> Beskriv nøkkelboks eller smartlås</li>
-      <li><strong>WiFi:</strong> Navn: [SSID], Passord: [passord]</li>
+      <li><strong>Nøkkel:</strong> Nøkkelboks ved inngangen, kode sendes dagen før ankomst</li>
+      <li><strong>WiFi:</strong> Navn: BergenStay, Passord: velkommen123</li>
+      <li><strong>Parkering:</strong> Gateparkering mulig, samt avgiftsparkering 100m unna</li>
     </ul>
   </section>
 
@@ -42,20 +61,24 @@
     <h2>Søppel og husholdning</h2>
     <ul>
       <li>Søppelrom: Til venstre for hovedinngangen</li>
-      <li>Kildesortering: Mat (grønn), Plast (blå), Papir, Rest</li>
-      <li>Vaskemaskin: Bruksanvisning ligger i skuffen</li>
-      <li>Aircondition: Slå på med fjernkontroll, auto anbefales</li>
+      <li>Kildesortering: Mat (grønn pose), Plast (blå pose), Papir, Restavfall</li>
+      <li>Vaskemaskin: Bruksanvisning ligger i skuffen under vask</li>
+      <li>Oppvaskmaskin: Fyll opp og kjør før utsjekk om mulig</li>
+      <li>Aircondition: Slå på med fjernkontroll, "Auto" anbefales</li>
+      <li>Støvsuger og vaskeutstyr: Finnes i boden i gangen</li>
     </ul>
   </section>
 
   <section id="tips">
     <h2>Ting å gjøre i Bergen</h2>
     <ul>
-      <li><strong>Fløyen:</strong> Fantastisk utsikt, ta Fløibanen eller gå</li>
-      <li><strong>Ulriken:</strong> Høyeste fjell i Bergen, ta Ulriksbanen</li>
-      <li><strong>Fisketorget:</strong> Lokal mat og sjømat</li>
-      <li><strong>KODE-museene:</strong> Kunst og kultur</li>
-      <li><strong>Mat:</strong> Prøv Lysverket, Pingvinen eller Bare Vestland</li>
+      <li><strong>Fløyen:</strong> Fantastisk utsikt – ta Fløibanen eller gå</li>
+      <li><strong>Ulriken:</strong> Høyeste fjell i Bergen – ta Ulriksbanen eller gå opp Ulriksstien</li>
+      <li><strong>Fisketorget:</strong> Lokal mat og sjømat – best på dagtid</li>
+      <li><strong>KODE-museene:</strong> Kunst og kultur i hjertet av byen</li>
+      <li><strong>Bryggen:</strong> UNESCO verdensarv, historiske trehus og koselige smau</li>
+      <li><strong>Restauranter:</strong> Prøv Lysverket, Colonialen eller Bare Vestland</li>
+      <li><strong>Kafé:</strong> Kaffemisjonen, Blom eller Det Lille Kaffekompaniet</li>
     </ul>
   </section>
 
@@ -65,7 +88,9 @@
       <li>Utsjekk før kl. 11:00</li>
       <li>Ta ut søppel og kast i riktig container</li>
       <li>Start oppvaskmaskin hvis den er halvfull eller mer</li>
-      <li>Dobbeltsjekk at du har med alt</li>
+      <li>Slå av lys og aircondition</li>
+      <li>Dobbeltsjekk at du har med alt (skap, bad, kjøleskap)</li>
+      <li>Lås døren og legg nøkkelen tilbake i nøkkelboksen</li>
     </ul>
   </section>
 
@@ -73,8 +98,13 @@
     <h2>Kontaktinformasjon</h2>
     <p><strong>Vert:</strong> Anders Langset<br>
     <strong>Telefon:</strong> +47 416 24 791<br>
-    <strong>E-post:</strong> din@epost.no</p>
+    <strong>E-post:</strong> anders@langset.no</p>
     <p><strong>Nødhjelp:</strong> Ring 113</p>
   </section>
+
+  <footer>
+    <p>Takk for at du valgte å bo hos oss. Vi håper du får et fantastisk opphold i Bergen!</p>
+    <p>Del gjerne din opplevelse i Airbnb-omtalen ❤️</p>
+  </footer>
 </body>
 </html>
